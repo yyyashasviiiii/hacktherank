@@ -32,7 +32,7 @@ Explanation:
 
 if __name__ == '__main__':
     n = int(input())
-    arr = list(set(map(int, input().split())))
+    arr = list(set(map(int, input().split()))) # set to remove duplicates & list to use sort 
     arr.sort()
     
     print(arr[-2])
