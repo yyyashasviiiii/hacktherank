@@ -28,3 +28,10 @@ if __name__ == '__main__':
     t = tuple(integer_list)
 
 print(hash(t))
+
+# for me my code wasn't working on Python3
+# Due to how hash works and generate different results on machines
+
+# n = int(input())
+# t = tuple(map(int, input().split()))
+# print(hash(t))
